@@ -137,10 +137,6 @@ class Game extends React.Component {
   }
 
   render() {
-    // if (typeof this.state.isRunning === 'undefined') {
-    //   return null
-    // }
-
     const { cells } = this.state;
 
     return (
